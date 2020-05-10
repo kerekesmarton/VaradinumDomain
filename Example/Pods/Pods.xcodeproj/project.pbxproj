@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105DDF0324684A68006244A7 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEF224684A68006244A7 /* DataService.swift */; };
+		105DDF0424684A68006244A7 /* Dispatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEF424684A68006244A7 /* Dispatching.swift */; };
+		105DDF0524684A68006244A7 /* AsyncOperaiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEF524684A68006244A7 /* AsyncOperaiton.swift */; };
+		105DDF0624684A68006244A7 /* DataFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEF624684A68006244A7 /* DataFormatter.swift */; };
+		105DDF0724684A68006244A7 /* TestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEF724684A68006244A7 /* TestHelper.swift */; };
+		105DDF0924684A68006244A7 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEFA24684A68006244A7 /* Array.swift */; };
+		105DDF0A24684A68006244A7 /* NSAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEFB24684A68006244A7 /* NSAttributedString.swift */; };
+		105DDF0B24684A68006244A7 /* SafeInitialisers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEFC24684A68006244A7 /* SafeInitialisers.swift */; };
+		105DDF0C24684A68006244A7 /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEFD24684A68006244A7 /* URL.swift */; };
+		105DDF0D24684A68006244A7 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEFE24684A68006244A7 /* String.swift */; };
+		105DDF0E24684A68006244A7 /* ProcessInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDEFF24684A68006244A7 /* ProcessInfo.swift */; };
+		105DDF0F24684A68006244A7 /* NSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDF0024684A68006244A7 /* NSError.swift */; };
+		105DDF1024684A68006244A7 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDF0124684A68006244A7 /* MockDataService.swift */; };
+		105DDF1124684A68006244A7 /* HTTPStatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105DDF0224684A68006244A7 /* HTTPStatusCode.swift */; };
+		20A773053727EF962E35B534CE778291 /* Pods-VaradinumDomain_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C462CA2D9ACEC9B12AA8F3F12FDFFE76 /* Pods-VaradinumDomain_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35630434F88710026D87D359B2415446 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		493EB30C692166DB7A8F2CF8618A78EE /* VaradinumDomain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6A3ADFD71F2702FB1E3876F3AB5CFE /* VaradinumDomain-dummy.m */; };
+		60A919DF86B83416FCE2DF3B445F23C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AA52FF6B07A59F25B303FAC8B5928EEB /* Pods-VaradinumDomain_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC63DA9907679E5102D08A32A0411B6 /* Pods-VaradinumDomain_Tests-dummy.m */; };
+		CDC73F3913C89F9E14B4E48A71F4CACE /* VaradinumDomain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F43E4624139835F8A7E2261C9231869A /* VaradinumDomain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25A5F2B53A3738754DD4218250DDAF5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 299D857E6F9F303DAAC12F8B36AF7528;
+			remoteInfo = VaradinumDomain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0454EF791088C85E0152D7C79862984C /* VaradinumDomain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VaradinumDomain.release.xcconfig; sourceTree = "<group>"; };
+		0978111B4E066F95C6C9BE3A582DFBD9 /* VaradinumDomain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VaradinumDomain-Info.plist"; sourceTree = "<group>"; };
+		105DDEF224684A68006244A7 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		105DDEF424684A68006244A7 /* Dispatching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatching.swift; sourceTree = "<group>"; };
+		105DDEF524684A68006244A7 /* AsyncOperaiton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncOperaiton.swift; sourceTree = "<group>"; };
+		105DDEF624684A68006244A7 /* DataFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataFormatter.swift; sourceTree = "<group>"; };
+		105DDEF724684A68006244A7 /* TestHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelper.swift; sourceTree = "<group>"; };
+		105DDEFA24684A68006244A7 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		105DDEFB24684A68006244A7 /* NSAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSAttributedString.swift; sourceTree = "<group>"; };
+		105DDEFC24684A68006244A7 /* SafeInitialisers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeInitialisers.swift; sourceTree = "<group>"; };
+		105DDEFD24684A68006244A7 /* URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
+		105DDEFE24684A68006244A7 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		105DDEFF24684A68006244A7 /* ProcessInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProcessInfo.swift; sourceTree = "<group>"; };
+		105DDF0024684A68006244A7 /* NSError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSError.swift; sourceTree = "<group>"; };
+		105DDF0124684A68006244A7 /* MockDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
+		105DDF0224684A68006244A7 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		46883BF478D2CE2E07A79934410D5452 /* Pods-VaradinumDomain_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VaradinumDomain_Tests-Info.plist"; sourceTree = "<group>"; };
+		59AA0A6FDA2C5192D6276FCEC1CCC8BA /* VaradinumDomain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VaradinumDomain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D1D853BE32F9F8B86DC6AC6A8FC975 /* Pods-VaradinumDomain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaradinumDomain_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6D4277F5617A420BC5B562C881F66E42 /* VaradinumDomain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VaradinumDomain.modulemap; sourceTree = "<group>"; };
+		7D6A3ADFD71F2702FB1E3876F3AB5CFE /* VaradinumDomain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VaradinumDomain-dummy.m"; sourceTree = "<group>"; };
+		8AA5099BB07479B0649CC9411B28F8C5 /* VaradinumDomain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VaradinumDomain.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8C5780603242CF8F177B90B4736D870A /* Pods-VaradinumDomain_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VaradinumDomain_Tests.modulemap"; sourceTree = "<group>"; };
+		913F3AF0DA96F0C0419DF5FC06EBE8E7 /* Pods_VaradinumDomain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VaradinumDomain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A898F2C8BC270542EC4F1A0227B3A8A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AB114D77765DF93BFE6E1579F160AAF3 /* Pods-VaradinumDomain_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VaradinumDomain_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3C58F1AD14AC10C5C002B934D245A56 /* VaradinumDomain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VaradinumDomain.debug.xcconfig; sourceTree = "<group>"; };
+		C462CA2D9ACEC9B12AA8F3F12FDFFE76 /* Pods-VaradinumDomain_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VaradinumDomain_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CCC63DA9907679E5102D08A32A0411B6 /* Pods-VaradinumDomain_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VaradinumDomain_Tests-dummy.m"; sourceTree = "<group>"; };
+		E67459FB576BB01BEFFADFF26545AD8D /* Pods-VaradinumDomain_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VaradinumDomain_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7C5B9F098D34EACF988AADBB1E21866 /* VaradinumDomain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VaradinumDomain-prefix.pch"; sourceTree = "<group>"; };
+		EA5915CA132A58EBE74DFA3FB2FFBB47 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EA5EFFA9E9E3EB073E819895D44898AF /* Pods-VaradinumDomain_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VaradinumDomain_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F43E4624139835F8A7E2261C9231869A /* VaradinumDomain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VaradinumDomain-umbrella.h"; sourceTree = "<group>"; };
+		F4B76B25B8608D6D5E99349D1C61A99A /* Pods-VaradinumDomain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VaradinumDomain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60EA2F6E3A9E3DCB2ABE4D21AAAA993A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60A919DF86B83416FCE2DF3B445F23C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F472A4986191944BE28B4CD1EDFFB065 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35630434F88710026D87D359B2415446 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06AF51C66D040ECA43788E7B29952C49 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				632F1374A29A3C8CF23AF6C89781FD48 /* Pods-VaradinumDomain_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		105DDEF124684A68006244A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				105DDEF324684A68006244A7 /* Additions */,
+				105DDEF924684A68006244A7 /* Extensions */,
+				105DDEF224684A68006244A7 /* DataService.swift */,
+				105DDF0124684A68006244A7 /* MockDataService.swift */,
+				105DDF0224684A68006244A7 /* HTTPStatusCode.swift */,
+			);
+			name = Classes;
+			path = VaradinumDomain/Classes;
+			sourceTree = "<group>";
+		};
+		105DDEF324684A68006244A7 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				105DDEF424684A68006244A7 /* Dispatching.swift */,
+				105DDEF524684A68006244A7 /* AsyncOperaiton.swift */,
+				105DDEF624684A68006244A7 /* DataFormatter.swift */,
+				105DDEF724684A68006244A7 /* TestHelper.swift */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		105DDEF924684A68006244A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				105DDEFA24684A68006244A7 /* Array.swift */,
+				105DDEFB24684A68006244A7 /* NSAttributedString.swift */,
+				105DDEFC24684A68006244A7 /* SafeInitialisers.swift */,
+				105DDEFD24684A68006244A7 /* URL.swift */,
+				105DDEFE24684A68006244A7 /* String.swift */,
+				105DDEFF24684A68006244A7 /* ProcessInfo.swift */,
+				105DDF0024684A68006244A7 /* NSError.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		632F1374A29A3C8CF23AF6C89781FD48 /* Pods-VaradinumDomain_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8C5780603242CF8F177B90B4736D870A /* Pods-VaradinumDomain_Tests.modulemap */,
+				E67459FB576BB01BEFFADFF26545AD8D /* Pods-VaradinumDomain_Tests-acknowledgements.markdown */,
+				AB114D77765DF93BFE6E1579F160AAF3 /* Pods-VaradinumDomain_Tests-acknowledgements.plist */,
+				CCC63DA9907679E5102D08A32A0411B6 /* Pods-VaradinumDomain_Tests-dummy.m */,
+				EA5EFFA9E9E3EB073E819895D44898AF /* Pods-VaradinumDomain_Tests-frameworks.sh */,
+				46883BF478D2CE2E07A79934410D5452 /* Pods-VaradinumDomain_Tests-Info.plist */,
+				C462CA2D9ACEC9B12AA8F3F12FDFFE76 /* Pods-VaradinumDomain_Tests-umbrella.h */,
+				F4B76B25B8608D6D5E99349D1C61A99A /* Pods-VaradinumDomain_Tests.debug.xcconfig */,
+				69D1D853BE32F9F8B86DC6AC6A8FC975 /* Pods-VaradinumDomain_Tests.release.xcconfig */,
+			);
+			name = "Pods-VaradinumDomain_Tests";
+			path = "Target Support Files/Pods-VaradinumDomain_Tests";
+			sourceTree = "<group>";
+		};
+		6E052B9BF509601E0B1BB2EF7D13A030 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A1A1E102B1B5B4400F6EB65D259E82F /* VaradinumDomain */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7A1A1E102B1B5B4400F6EB65D259E82F /* VaradinumDomain */ = {
+			isa = PBXGroup;
+			children = (
+				105DDEF124684A68006244A7 /* Classes */,
+				AAE4B56EC7FF4E861DB16D13AA0091A1 /* Pod */,
+				7C8DF06C4B6A619FB5EED7B25EDCE58C /* Support Files */,
+			);
+			name = VaradinumDomain;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7C8DF06C4B6A619FB5EED7B25EDCE58C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D4277F5617A420BC5B562C881F66E42 /* VaradinumDomain.modulemap */,
+				7D6A3ADFD71F2702FB1E3876F3AB5CFE /* VaradinumDomain-dummy.m */,
+				0978111B4E066F95C6C9BE3A582DFBD9 /* VaradinumDomain-Info.plist */,
+				E7C5B9F098D34EACF988AADBB1E21866 /* VaradinumDomain-prefix.pch */,
+				F43E4624139835F8A7E2261C9231869A /* VaradinumDomain-umbrella.h */,
+				C3C58F1AD14AC10C5C002B934D245A56 /* VaradinumDomain.debug.xcconfig */,
+				0454EF791088C85E0152D7C79862984C /* VaradinumDomain.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VaradinumDomain";
+			sourceTree = "<group>";
+		};
+		AAE4B56EC7FF4E861DB16D13AA0091A1 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A898F2C8BC270542EC4F1A0227B3A8A3 /* LICENSE */,
+				EA5915CA132A58EBE74DFA3FB2FFBB47 /* README.md */,
+				8AA5099BB07479B0649CC9411B28F8C5 /* VaradinumDomain.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BE23EC6787236FDBFF3FDF24C9E5FFFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				913F3AF0DA96F0C0419DF5FC06EBE8E7 /* Pods_VaradinumDomain_Tests.framework */,
+				59AA0A6FDA2C5192D6276FCEC1CCC8BA /* VaradinumDomain.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6E052B9BF509601E0B1BB2EF7D13A030 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				BE23EC6787236FDBFF3FDF24C9E5FFFB /* Products */,
+				06AF51C66D040ECA43788E7B29952C49 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B606AB31F4510F0F7AE81621139A92C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A773053727EF962E35B534CE778291 /* Pods-VaradinumDomain_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F603E7837A4A8EEF11DE865859205AE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC73F3913C89F9E14B4E48A71F4CACE /* VaradinumDomain-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F906D3F9CCA39245A3CBA47209E03D8 /* Pods-VaradinumDomain_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31B51B7756D298E40FD3B7B0F40B1C1C /* Build configuration list for PBXNativeTarget "Pods-VaradinumDomain_Tests" */;
+			buildPhases = (
+				B606AB31F4510F0F7AE81621139A92C6 /* Headers */,
+				B9D1E2E889BD4B1A5CE7DB8EDB24417C /* Sources */,
+				60EA2F6E3A9E3DCB2ABE4D21AAAA993A /* Frameworks */,
+				18F274594360FE9AFB056B989B53D56C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA1280E13F1520A9B4940B947A6DC850 /* PBXTargetDependency */,
+			);
+			name = "Pods-VaradinumDomain_Tests";
+			productName = "Pods-VaradinumDomain_Tests";
+			productReference = 913F3AF0DA96F0C0419DF5FC06EBE8E7 /* Pods_VaradinumDomain_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		299D857E6F9F303DAAC12F8B36AF7528 /* VaradinumDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B883EA5C903C87663C63C59A213F16D /* Build configuration list for PBXNativeTarget "VaradinumDomain" */;
+			buildPhases = (
+				F603E7837A4A8EEF11DE865859205AE6 /* Headers */,
+				4C5FF93C4863D0F55B904CDDF694D04B /* Sources */,
+				F472A4986191944BE28B4CD1EDFFB065 /* Frameworks */,
+				78EC9DEACC97DA903E94D28F5F2235E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaradinumDomain;
+			productName = VaradinumDomain;
+			productReference = 59AA0A6FDA2C5192D6276FCEC1CCC8BA /* VaradinumDomain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BE23EC6787236FDBFF3FDF24C9E5FFFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F906D3F9CCA39245A3CBA47209E03D8 /* Pods-VaradinumDomain_Tests */,
+				299D857E6F9F303DAAC12F8B36AF7528 /* VaradinumDomain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F274594360FE9AFB056B989B53D56C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78EC9DEACC97DA903E94D28F5F2235E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C5FF93C4863D0F55B904CDDF694D04B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105DDF1124684A68006244A7 /* HTTPStatusCode.swift in Sources */,
+				493EB30C692166DB7A8F2CF8618A78EE /* VaradinumDomain-dummy.m in Sources */,
+				105DDF0D24684A68006244A7 /* String.swift in Sources */,
+				105DDF0624684A68006244A7 /* DataFormatter.swift in Sources */,
+				105DDF0924684A68006244A7 /* Array.swift in Sources */,
+				105DDF0B24684A68006244A7 /* SafeInitialisers.swift in Sources */,
+				105DDF1024684A68006244A7 /* MockDataService.swift in Sources */,
+				105DDF0A24684A68006244A7 /* NSAttributedString.swift in Sources */,
+				105DDF0C24684A68006244A7 /* URL.swift in Sources */,
+				105DDF0E24684A68006244A7 /* ProcessInfo.swift in Sources */,
+				105DDF0F24684A68006244A7 /* NSError.swift in Sources */,
+				105DDF0424684A68006244A7 /* Dispatching.swift in Sources */,
+				105DDF0724684A68006244A7 /* TestHelper.swift in Sources */,
+				105DDF0524684A68006244A7 /* AsyncOperaiton.swift in Sources */,
+				105DDF0324684A68006244A7 /* DataService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D1E2E889BD4B1A5CE7DB8EDB24417C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA52FF6B07A59F25B303FAC8B5928EEB /* Pods-VaradinumDomain_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA1280E13F1520A9B4940B947A6DC850 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VaradinumDomain;
+			target = 299D857E6F9F303DAAC12F8B36AF7528 /* VaradinumDomain */;
+			targetProxy = 25A5F2B53A3738754DD4218250DDAF5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03D0F38BC55CE117FF22CCD4C81F08DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D1D853BE32F9F8B86DC6AC6A8FC975 /* Pods-VaradinumDomain_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VaradinumDomain_Tests/Pods-VaradinumDomain_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VaradinumDomain_Tests/Pods-VaradinumDomain_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BB2710E5D6F4C23D8B12B6D606B8BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B76B25B8608D6D5E99349D1C61A99A /* Pods-VaradinumDomain_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VaradinumDomain_Tests/Pods-VaradinumDomain_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VaradinumDomain_Tests/Pods-VaradinumDomain_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CE861625438C44811E9331C1D5CF6783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0454EF791088C85E0152D7C79862984C /* VaradinumDomain.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VaradinumDomain/VaradinumDomain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VaradinumDomain/VaradinumDomain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VaradinumDomain/VaradinumDomain.modulemap";
+				PRODUCT_MODULE_NAME = VaradinumDomain;
+				PRODUCT_NAME = VaradinumDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FDF6C5CBBBF7D3190459B8E62409B859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C58F1AD14AC10C5C002B934D245A56 /* VaradinumDomain.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VaradinumDomain/VaradinumDomain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VaradinumDomain/VaradinumDomain-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VaradinumDomain/VaradinumDomain.modulemap";
+				PRODUCT_MODULE_NAME = VaradinumDomain;
+				PRODUCT_NAME = VaradinumDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31B51B7756D298E40FD3B7B0F40B1C1C /* Build configuration list for PBXNativeTarget "Pods-VaradinumDomain_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BB2710E5D6F4C23D8B12B6D606B8BEC /* Debug */,
+				03D0F38BC55CE117FF22CCD4C81F08DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B883EA5C903C87663C63C59A213F16D /* Build configuration list for PBXNativeTarget "VaradinumDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF6C5CBBBF7D3190459B8E62409B859 /* Debug */,
+				CE861625438C44811E9331C1D5CF6783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

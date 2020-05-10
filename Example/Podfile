@@ -1,0 +1,6 @@
+use_frameworks!
+target 'VaradinumDomain_Tests' do
+  pod 'VaradinumDomain', :path => '../'
+  
+  
+end

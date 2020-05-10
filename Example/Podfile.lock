@@ -1,0 +1,16 @@
+PODS:
+  - VaradinumDomain (0.1.0)
+
+DEPENDENCIES:
+  - VaradinumDomain (from `../`)
+
+EXTERNAL SOURCES:
+  VaradinumDomain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VaradinumDomain: a9a7f7c63d6ae9ebf51d295f4db4d2398ce723d2
+
+PODFILE CHECKSUM: ebf33501bb466327f1098e48cdbc1a115785b72a
+
+COCOAPODS: 1.9.1

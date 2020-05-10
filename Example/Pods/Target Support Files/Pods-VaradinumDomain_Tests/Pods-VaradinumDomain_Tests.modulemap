@@ -1,0 +1,6 @@
+framework module Pods_VaradinumDomain_Tests {
+  umbrella header "Pods-VaradinumDomain_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

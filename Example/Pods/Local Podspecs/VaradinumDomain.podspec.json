@@ -1,0 +1,22 @@
+{
+  "name": "VaradinumDomain",
+  "version": "0.1.0",
+  "summary": "A short description of VaradinumDomain.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Marton Kerekes/VaradinumDomain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Marton Kerekes": "kerekes.j.marton@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Marton Kerekes/VaradinumDomain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "VaradinumDomain/Classes/**/*"
+}

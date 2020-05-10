@@ -1,0 +1,6 @@
+framework module VaradinumDomain {
+  umbrella header "VaradinumDomain-umbrella.h"
+
+  export *
+  module * { export * }
+}
